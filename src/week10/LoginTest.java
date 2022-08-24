@@ -1,0 +1,28 @@
+package week10;
+
+public class LoginTest {
+    public static void main(String[] args) {
+
+    }
+
+    public static boolean login(String username, String password){
+        if(username.equalsIgnoreCase("cydeoStudent") && password.equalsIgnoreCase("cydeoPassword")){
+            return true;
+        }
+        return false;
+    }
+
+
+
+//public static String login()String username, String Password){} not method overloading
+
+public static String getPassword(){
+        // assume that we are getting this piece of info from an external file
+   return "cydeoPassword"  ;
+}
+public static String getUsername(){
+        return "cydeoStudent";
+}
+
+}
+
